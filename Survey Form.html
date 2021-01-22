@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/survey.css">
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Responsive Web Design Projects - Build a Survey Form.</p>
+  <div class="form">
+    <form id="survey-form" action="index.html" method="post">
+      <label id="name">Name:</label><br>
+      <input type="text" name="" value="" placeholder="Name"><br><br>
+      <label id="email">Email:</label><br>
+      <input type="email" name="" value="" placeholder="Email"><br><br>
+      <label id="number">Age:</label><br>
+      <input type="number" name="" value="" min="1" max="100" placeholder="Age"><br><br>
+      <label id="dropdown">Spoken Language:</label><br>
+      <select name="Language">
+        <option value="select">select</option>
+        <option value="English">English</option>
+        <option value="French">French</option>
+        <option value="Italian">Italian</option>
+      </select><br><br>
+      <div class="radio">
+        <label for="Favorite Language"> Favorite Language:</label><br>
+      <input type="radio" name="HTML-CSS-JAVA" value="HTML">HTML</input><br>
+      <input type="radio" name="HTML-CSS-JAVA" value="CSS">CSS</input><br>
+      <input type="radio" name="HTML-CSS-JAVA" value="JAVA">JAVA</input>
+      </div>
+      <br><br>
+      <label>Enjoying your programming journey?</label><br>
+      <input type="checkbox" name="Yes" value="Yes">Yes</input>
+      <input type="checkbox" name="No" value="No">No</input><br><br>
+      <label>Explain More</label>
+      <textarea rows="8" cols="40"></textarea><br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    </div>
+
+</body>
+
+</html>

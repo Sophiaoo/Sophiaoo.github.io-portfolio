@@ -1,0 +1,80 @@
+a {
+  text-decoration: none;
+  color: #312c51;
+  font-size: 20px;
+  width: 600px;
+}
+
+a:hover {
+  color: white;
+}
+
+body {
+  background-color: #f0c38e;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: #312c51;
+  font-family: calibre, sans-serif;
+  text-align: center;
+  width: 250px;
+}
+
+h2 {
+  font-family: calibre, sans-serif;
+}
+
+p {
+  font-family: Caladea, serif;
+}
+
+#about {
+  position: relative;
+  left: 50px;
+  text-align: justify;
+  width: 1200px;
+}
+
+#projects {
+  position: relative;
+  left: 50px;
+  text-align: justify;
+  width: 1200px;
+}
+
+#profile-link {
+  background-color: #f1aa9b;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 15px;
+  word-spacing: 5px;
+}
+
+#welcome-section {
+  background-color: #f0c38e;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-template-areas: "navbar";
+  grid-column-gap: 700px;
+  padding-left: 30px;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar {
+  position: relative;
+  top: 30px;
+  word-spacing: 6px;
+}
+
+@media only screen and (max-width: 460px) {
+  #main-doc {
+    width: 75%;
+  }

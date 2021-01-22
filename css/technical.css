@@ -1,0 +1,84 @@
+body {
+  background-color: #f5eee6;
+background-size: cover;
+line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+li {
+  font-family: 'Merriweather', sans-serif;
+}
+
+a {
+  display: block;
+  margin: 10px 0px;
+  }
+
+.code {
+  display: block;
+  background-color: #f3d7ca;
+  border: 3px solid #c86b85;
+  margin: 50px;
+  width: 350px;
+}
+
+.nav-link {
+  color: #e6a4b4;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #c86b85;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas: "navbar content";
+  grid-gap: 40px;
+  padding-left: 30px;
+}
+
+.output {
+  position: relative;
+  left: 450px;
+  bottom: 400px;
+  width: 350px;
+}
+
+#nav-bar {
+grid-area: navbar;
+position: fixed;
+}
+
+#main-doc {
+  position: absolute;
+  left: 300px;
+  top: 15px;
+}
+
+#how-html-works {
+  height: 1100px;
+}
+
+#most-used-html-tag {
+  margin-top: 250px;
+}
+@media only screen and (max-width: 460px) {
+  #main-doc {
+    width: 75%;
+  }

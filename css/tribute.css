@@ -1,0 +1,32 @@
+body {
+  background-color: #eeeeee;
+  font-family: Montserrat, sans-serif;
+}
+h1 {
+  color: #222831;
+  font-size: 80px;
+}
+h2 {
+  color: #222831;
+  text-align: center;
+}
+h3 {
+  font-weight: lighter;
+}
+p {
+  color: #393e46;
+  font-family: Caladea, serif;
+  line-height: 2;
+}
+hr {
+  border-color: #00adb5;
+  width: 85%;
+  margin: auto;
+}
+#main {
+  padding-top: 20px;
+  text-align: center;
+}
+#image {
+  border-radius: 85%;
+}

@@ -1,0 +1,30 @@
+body {
+  background-color: #dbe2ef;
+}
+input {
+  height: 30px;
+  width: 700px;
+}
+select{
+  height:30px;
+  width:300px;
+}
+.form {
+  background-color: #f9f7f7;
+  font-size: 20px;
+  line-height: 2;
+  padding-left: 40px;
+  width: 900px;
+  margin: auto;
+}
+.radio {
+  
+}
+#title {
+  font-size: 60px;
+  text-align: center;
+}
+#description {
+  font-size: 20px;
+  text-align: center;
+}

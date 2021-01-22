@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Technical Documentation Page</title>
+  <link rel="stylesheet" href="css/technical.css">
+  <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav-grid">
+    <nav id="navbar">
+      <h1>HTML & CSS</h1>
+      <a class="nav-link" href="#introduction">Introduction</a>
+      <a class="nav-link" href="#how-html-works">How HTML Works</a>
+      <a class="nav-link" href="#most-used-html-tag">Most Used HTML Tag</a>
+      <a class="nav-link" href="#what-is-css">What is CSS?</a>
+      <a class="nav-link" href="#why-use-css">Why use CSS?</a>
+      <a class="nav-link" href="#why-use-html-and-css-together">Why use HTML and CSS together</a>
+    </nav>
+  </div>
+  <main id="main-doc">
+    <section id="introduction">
+      <h3>Introduction</h3>
+      <p>HTML stands for Hypertext Markup Language. It allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications. HTML is not a programming language, meaning it doesn't have the
+        ability to create dynamic functionality.</p>
+      <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+    </section>
+    <section id="how-html-works">
+      <h3>How HTML works</h3>
+      <p>Each HTML page consists of a set of tags (also called elements), which you can refer to as the building blocks of web pages. They create a hierarchy that structures the content into sections, paragraphs, headings, and other content blocks.
+      </p>
+      <p>Most HTML elements have an opening and a closing that use the syntax. For example;</p>
+      <ul>
+        <li>Tag for a header &lth/&gt- the opening, and &lt/h/&gt- the closing.</li>
+        <p>for example, to make a H1 heading</p>
+        <div class="code">
+          <code>&lth1&gt<h1>Hello World</h1>&lth1/&gt</code>
+        </div>
+        <li>To make a word, letter or sentence bold/italic, we use the &ltb&gt&lt/b&gt, and &ltem&gt&lt/em&gt respectively.</li>
+        <p>for example</p>
+        <div class="code">
+          <code>&ltb&gt<b>Hello World</b>&lt/b&gt</code>
+        </div>
+        <div class="code">
+          <code>&ltem&gt<em>Hello World</em>&lt/em&gt</code>
+        </div>
+        <li>There is also a table tag for creating tables.</li>
+        <p>for example</p>
+        <div class="code">
+          <code>
+            <div>
+              &lttable&gt
+            </div>
+            <div>
+              &lttr&gt
+            </div>
+            <div>
+              &ltth&gtFirstname&lt/th&gt
+            </div>
+            <div>
+              &ltth&gtLastname&lt/th&gt
+            </div>
+            <div>
+              &ltth&gtAge&lt/th&gt
+            </div>
+            <div>
+              &lt/tr&gt
+            </div>
+            <div>
+              &lttr&gt
+            </div>
+            <div>
+              &lttd&gtJill&lt/td&gt
+            </div>
+            <div>
+              &lttd&gtSmith&lt/td&gt
+            </div>
+            <div>
+              &lttd&gt50&lt/td&gt
+            </div>
+            <div>
+              &lt/tr&gt
+            </div>
+            <div>
+              &lttr&gt
+            </div>
+            <div>
+              &lttd&gtEve&lt/td&gt
+            </div>
+            <div>
+              &lttd&gtJackson&lt/td&gt
+            </div>
+            <div>
+              &lttd&gt94&lt/td&gt
+            </div>
+            <div>
+              &lt/tr&gt
+            </div>
+            <div>
+              &lt/table&gt
+            </div>
+          </code>
+      </div>
+      </ul>
+      <p>The output will look like this on the right. With 'Tr' meaning table rows, 'th' table heading, and 'td' table column.</p>
+      <div class="output">
+        <code class="code">
+          <table>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+          </table>
+        </code>
+      </div>
+
+    </section>
+    <section id="most-used-html-tag">
+      <h3>Most Used HTML Tag</h3>
+      <p>HTML tags have two main types:</p>
+      <ol>
+        <li><strong>Block-Level Tags</strong>: elements take up the full available space and always start a new line in the document. Headings and paragraphs are a great example of block tags.</li>
+        <li><strong>Inline Tags</strong>: only take up as much space as they need and don’t start a new line on the page. They usually serve to format the inner contents of block-level elements. Links and emphasized strings are good examples of
+          inline tags. </li>
+      </ol>
+    </section>
+    <section id="what-is-css">
+      <h3>What is CSS?</h3>
+      <p>CSS Introduction</p>
+      <ul>
+        <li>CSS stands for Cascading Style Sheets</li>
+        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in media</li>
+        <li>CSS svaes a lot of work. It can control the layout of multiple web pages at once</li>
+        <li>External stylesheets are stored in CSS files</li>
+      </ul>
+    </section>
+    <section id="why-use-css">
+      <h3>Why use CSS?</h3>
+      <p>Css is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes. Example;</p>
+      <div class="code">
+        <code>
+          body {
+          background-color: lightblue;
+          }
+          h1 {
+          color: white;
+          text-align: center;
+          }
+          p {
+          font-family: verdana;
+          font-size: 20px;
+          }
+        </code>
+      </div>
+      <p>The CSS style applied to the body in the example, makes the background color white, the H1 headings white and in the center, all paragraphs in verdana font, with a 20px size. Controlling multiple web pages at the same time.</p>
+    </section>
+    <section id="why-use-html-and-css-together">
+      <h3>Why use HTML and CSS together?</h3>
+      <p>While HTML is used as the foundation for every web page, CSS is what gives it a display very easy on the eyes and makes interactive.</p>
+      <p>Both of them make the foundation of everything you'll need to build your website.</p>
+    </section>
+  </main>
+</body>
+
+</html>
